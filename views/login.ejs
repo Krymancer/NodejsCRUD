@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <% include partials/head %> 
+</head>
+<body>
+<% include partials/menu %>
+    <div class="login">
+        <form action="/login" method="post">
+            <input type="text" name="user" class="login-input" placeholder="Usuário"/>
+            <input type="password" name="paswd" class="login-input" placeholder="Senha"/>
+            <input type="submit" value="Login" class="login-button"/>
+        </form>
+    </div>
+</body>
+<% include partials/script %>
+</html>
